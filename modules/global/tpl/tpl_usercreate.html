@@ -1,0 +1,72 @@
+<h2 class="title bg-primary">Add User</h2>
+<form role="form" class="form-horizontal pop-form">
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label" >*Login ID</label>
+		<div class="col-sm-9">
+		<input type="text" class="form-control required" autofocus value="<%=(SigmaUserId ? SigmaUserId : '')%>" id="txtSigmaUserId">
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">*Employee ID</label>
+		<div class="col-sm-9">
+		<input type="text" class="form-control required" value="<%=EmployeeId%>" id="txtEmployeeId">
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">*First Name</label>
+		<div class="col-sm-9">
+		<input type="text" class="form-control required" placeholder="" value="<%=FirstName%>" id="txtFirstName">
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">*Last Name</label>
+		<div class="col-sm-9">
+		<input type="text" class="form-control required" placeholder="" value="<%=LastName%>" id="txtLastName">
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">*Phone Number</label>
+		<div class="col-sm-9">
+		<input type="phone" class="form-control d_phone required" placeholder="" value="<%=PhoneNo%>" id="txtPhoneNo">
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">*Email Address</label>
+		<div class="col-sm-9">
+		<input type="email" class="form-control d_email required" placeholder="" value="<%=Email%>" id="txtEmail">
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label class="col-sm-3 control-label">Company</label>						
+		<div class="col-sm-9" id="cboCompany">
+		<p class="help-block">If you can't find the company, you can add a company to "Companies" under Global Settings.</p>
+		</div>
+	  </div>					  
+	  <div class="form-group">
+		<label for="lblLogo" class="col-sm-3 control-label">Photo</label>
+		<div class="col-sm-9" >
+			<input type="file" id="file" class="filePhoto form-control d_file" accept="image/*" size="200" regexp=/\.(gif|jpg|jpeg|png|tif|bmp)$/i msg="Select File (ex:*.jpg,*.gif,*.tif,*.bmp,*.png)" />
+			<p class="help-block">Choose a image file smaller than 200KByte</p>
+			<img src="" class="img-thumbnail" id="imgPhotoUrl" style="height:90px;" />
+		</div>
+	  </div>
+	  <div class="col-sm-12" id="role_subbuttons"></div>
+	  <div id="role_sublist">
+		<table class="table">
+			<thead>
+				<th>Project</th>
+				<th>Role</th>
+				<th></th>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	  </div>
+	  
+</form>  
+<div class="pop-btn-control bg-primary">
+	 	<button type="submit" class="btn btn-primary" id="btnSave">Save</button>	
+		<button type="submit" class="btn btn-warning" id="btnDelete">Delete</button>
+	 	<button type="submit" class="btn btn-default" id="btnCancel">Cancel</button> 
+        <button type="submit" class="btn btn-default" id="btndeletecancel" style="display:none;">Cancel</button>
+</div>

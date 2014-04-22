@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Element Sigma</title>
+
+		<link rel="shortcut icon" type="image/x-icon" href="../../img/favicon2.ico">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="../../css/boot/bootstrap.min.css">
+		<link rel="stylesheet" href="../../css/boot/bootstrap-theme.min.css">
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<link href="../../css/layout.css" rel="stylesheet" type="text/css">
+		<link href="../../css/help.css" rel="stylesheet" type="text/css">
+		<link href="../../css/scroll.css" rel="stylesheet" type="text/css">
+		<link href="../../css/font-awesome.css" rel="stylesheet" type="text/css">
+		<link href="../../css/sigmaFont.css" rel="stylesheet" type="text/css">
+		<link href="../../css/dev.css" rel="stylesheet" type="text/css">
+		<style>
+			a { cursor : pointer; }
+		</style>
+    </head>
+    <body>
+		<div class="sga_wrapper">
+			<header class="sga_header">
+				<div id="header" class="gnb_wrap"></div>
+				<div id="subheader" class="global-master-menu"></div>
+				<div id="contenttop" class="sga_header-title"></div>
+			</header>
+			<div class="sga_container">
+				<div class="container_wrap" id="container">
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation" style="display:none">
+		  <div style="padding-top:5px;" class="pull-right">
+		  </div>
+		</nav>
+
+		<!-- Import Javascript Files -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.2.1/underscore-min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.5.3/backbone-min.js"></script>
+
+		<!-- external libs -->
+        <script src="../../libs/paginator.js"></script>
+        <script src="../../libs/md5-min.js"></script>
+        <script src="../../libs/jquery-ui-1.10.4.custom.min.js"></script>
+        <script src="../../libs/scroll.js"></script>
+
+		<!-- 
+			javascript file imclude
+            absolute path js - common js
+		-->
+
+        <script src="../../resources/lang_en.js"></script>
+        <script src="../../resources/menu.js"></script>
+        <script src="../../base.js"></script>
+        <script src="../../app.js"></script>
+        <script src="../../libs/components.js"></script>
+        <script src="../../common/header.js"></script>
+        <script src="../../common/subheader.js"></script>
+        <script src="../../common/content_top.js"></script>
+        <script src="../../common/unsignedheader.js"></script>
+        <script src="../../modules/common/model/models.js"></script>
+        <script src="../../modules/common/views/importhistory.js"></script>
+		<script src="../../modules/common/views/messagecreate.js"></script>
+
+		<!-- 
+			javascript file imclude
+            js for this module
+		-->
+        <script src="models/global.js"></script>
+		<script src="models/common.js"></script>
+        <script src="models/sigmalog.js"></script>
+        <script src="models/sigmacodecategory.js"></script>
+        <script src="models/sigmacode.js"></script>
+        <script src="models/sigmajob.js"></script>
+
+        <script src="views/userlist.js"></script>
+		<script src="views/usercreate.js"></script>	
+		<script src="views/home.js"></script>			
+		<script src="views/costcode.js"></script>			
+		<script src="views/costcodeimport.js"></script>			
+		<script src="views/rolelist.js"></script>	
+		<script src="views/companylist.js"></script>
+		<script src="views/companycreate.js"></script>
+        <script src="views/sigmaloglist.js"></script>
+        <script src="views/sigmalogcreate.js"></script>
+        <script src="views/sigmacodecategorylist.js"></script>
+        <script src="views/sigmacodecategorycreate.js"></script>
+        <script src="views/sigmacodelist.js"></script>
+        <script src="views/sigmacodecreate.js"></script>
+        <script src="views/sigmajoblist.js"></script>
+        <script src="views/sigmajobcreate.js"></script>
+        <script src="views/workflow.js"></script>
+        
+        <script src="router.js"></script>
+    </body>
+</html>

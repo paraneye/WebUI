@@ -1,0 +1,113 @@
+  <div class="panel panel-primary">
+	  <div class="panel-heading">Basic Infomation</div>
+		<div class="panel-body">
+		<form class="form-horizontal" role="form">
+		  <div class="form-group">
+			<label class="col-sm-2 control-label">*Disciplines</label>
+			<div class="col-sm-10">
+			<div class="" id="cboDiscipline"></div>
+			<div style="clear:both;"/>
+			</div>
+		  </div>
+		  <div class="form-group">
+			<label  class="col-sm-2 control-label" >*Project Name</label>
+			<div class="col-sm-6">
+			<input type="text" class="form-control required" id="txtprojectname" placeholder="" value="<%=ProjectName%>">
+			</div>
+		  </div>
+		  <div class="form-group">
+			<label  class="col-sm-2 control-label">*Project ID</label>
+			<div class="col-sm-6">
+			<input type="text" class="form-control required" id="txtprojectid" placeholder="" value="<%=ProjectNumber%>">
+			</div>
+		  </div>
+		  <div class="form-group">
+			<label  class="col-sm-2 control-label">*Project Manager</label>
+			<div class="col-sm-4">
+			<select id="slUser" class="form-control required">
+			</select>
+			</div>
+		  </div>
+		  <div class="form-group form-inline">
+		  <label for="lblLocation" class="col-sm-2 control-label">Location</label>				
+			
+			<div class="col-sm-6">					
+			<select id="slCountry" class="form-control">
+			</select>
+			<select id="slCounty" class="form-control">
+			</select>
+			<input type="text" class="form-control" placeholder="" id="txtCity" value="<%=CityName%>">
+			</div>	
+		  </div>
+		  <div class="form-group">
+			<label for="lblLogo" class="col-sm-2 control-label">Logo</label>
+			<div class="col-sm-6">
+			<input type="file" id="fileLogo" class="form-control">
+			<p class="text-primary" style="margin:0px;">Choose a image file smaller than 200KByte</p>
+			<img style="margin-top:10px;width:150px;height:100" id="imgLogo" class="img-thumbnail" accept="image/*" />
+			</div>
+		  </div>
+		  <div class="form-group">
+			<label for="lblDescription" class="col-sm-2 control-label">Description</label>
+			<div class="col-sm-10">
+					<textarea class="form-control" rows="2" id="txtdesc"><%=ProjectDescription%></textarea>
+			</div>
+		  </div>
+	  </form>
+		  </div>
+  </div>
+								  
+  <div class="panel panel-primary">
+	  <div class="panel-heading">Client Infomation</div>
+		<div class="panel-body">
+		<form class="form-horizontal" role="form">
+			  <div class="form-group">
+				<label class="col-sm-2 control-label">*Client</label>						
+				<div class="col-sm-4">
+					<select id="cboClient" class="form-control sl_company required">
+					</select>
+				</div>
+			  </div>
+			  <div class="form-group">
+				<label  class="col-sm-2 control-label">*Client Project Name</label>
+				<div class="col-sm-6">
+				<input type="text" class="form-control required" placeholder=""
+				value="<%=ClientProjectName%>"	id="txtcprjname">
+				</div>
+			  </div>
+			  <div class="form-group">
+				<label class="col-sm-2 control-label">*Client Project ID</label>
+				<div class="col-sm-6">
+				<input type="text" class="form-control required" placeholder="" value="<%=ClientProjectId%>" id="txtcprjid">
+				</div>
+			  </div>					  
+			 </form>
+			</div>
+		</div>
+			  
+	<div class="panel panel-primary">
+		<div class="panel-heading">Subcontractors</div>
+		<div class="panel-body">
+			<form class="form-horizontal" role="form">
+			  <div class="form-group">
+				<label class="col-sm-2 control-label">Add Subcontractors</label>
+				<div class="input-group col-sm-4">
+					<select id="cboContractor" class="form-control sl_company"></select>
+					<span class="input-group-btn">
+						<button id="btnSub" class="btn btn-default btnContAdd" >Add</button>
+					</span>
+				</div>
+			  </div>					  
+			  <div class="form-group">
+				<label class="col-sm-2 control-label"></label>
+				<div class="input-group col-sm-4">
+					<ul class="list-group" id="subc" style="margin-bottom:0px;">
+					</ul>
+				</div>
+			  </div>					  
+			</form>
+		</div> 
+	</div>				  
+	
+	<button class="btn btn-primary" id="btnSave">Save</button>			
+	<button class="btn btn-default" id="btnCancel">Cancel</button>

@@ -1,0 +1,7 @@
+<td><input type="checkbox" name="key" value=<%=ImportHistoryId%>></td>
+<td><% if(FailCount > 0) {%><a href="javascript:Element.Tools.LinkClick('<%=ImportHistoryId%>|<%=ImportedFileName%>|<%=FailCount%>|<%=ImportedDate%>');"><% } %><%=ImportedFileName%><% if(FailCount > 0) {%></a><% } %></td>
+<td class="text-center"><%=ImportedDate%></td>
+<td class="text-center"><%=TotalCount%></td>
+<td class="text-center"><%=SuccessCount%></td>
+<td class="text-center"><%=FailCount%></td>
+<td class="text-center"><% if(FailCount > 0) {%><a href="javascript:Element.Tools.LinkClick('<%=ImportHistoryId%>|<%=ImportedFileName%>|<%=FailCount%>|<%=ImportedDate%>', 'export');">Download</a><% } %></td>

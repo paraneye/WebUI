@@ -1,0 +1,69 @@
+<h2 class="title bg-primary"><%=FileTitle%></h2>
+
+<form class="form-horizontal pop-form" role="form">					  
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label" >*Title</label>
+		<div class="col-sm-9">
+			<input type="text" class="form-control" placeholder="title" id="title" value="<%=FileTitle%>" disabled>
+		</div>
+	  </div> 
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">Description</label>
+		<div class="col-sm-9">
+			<textarea class="form-control" rows="2" id="desc" placeholder="Description" disabled><%=FileDescription%></textarea>
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label" >File Name:</label>
+		<div class="col-sm-9" style="padding:6px 12px">
+				<%=FileTitle%>
+		</div>
+		
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label" >Version:</label>
+		<div class="col-sm-9" style="padding:6px 12px">
+				<%=Revision%>
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label" >Last Modified:</label>
+		<div class="col-sm-9" id="lbllastmodified" style="padding:6px 12px">
+			
+		</div>
+	  </div>
+	  <hr>
+	  <h4>Add new version</h4>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">Choose a File</label>
+		<div class="col-sm-9">
+			<input type="file" id="file" name="file" class="form-control required" placeholder="select file" accept="application/ozd,application/ozr">
+		</div>
+		
+	  </div>
+	  
+	  <hr>
+	  <h4>Version History</h4>	  
+	  <div id="sublist" style='height:100px;'>
+		<table class="table">
+			<thead>
+				<tr>
+					<th style="text-align:center;">No.</th>
+					<th style="text-align:left;">File Name</th>
+					<th style="text-align:center;">Modified On</th>
+					<th style="text-align:center;">Modified By</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	  </div>
+</form>  
+<div class="pop-btn-control bg-primary">
+<button type="submit" class="btn btn-primary" id="btnSave">Save</button>			
+<button type="submit" class="btn btn-default" id="btnCancel">Cancel</button>
+</div>
+ 
+
+	 
+

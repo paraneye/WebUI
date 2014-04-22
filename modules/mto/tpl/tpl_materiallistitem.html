@@ -1,0 +1,10 @@
+<td><input type="checkbox" name="key" <%if(ComponentCount > 0){%>disabled<%}%> value=<%=MaterialId%> ></td>
+<td style="text-align:center;"><a href="javascript:Element.Tools.LinkClick('<%=MaterialId%>',<%=ComponentCount%>);"><%=DisciplineName%></a></td>
+<td style="text-align:center;"><%=TaskCategoryName%></td>
+<td style="text-align:center;"><%=TaskTypeName%></td>
+<td style="text-align:left;"><%=Description%><%if(ComponentCount > 0) {%>&nbsp;<span class="label label-success glyphicon glyphicon-wrench"> <%=ComponentCount%></span><%}%></td>
+<td style="text-align:left;"><%=Vendor%></td>
+<td style="text-align:left;"><%=PartNumber%></td>
+<td style="text-align:center;"><%=UOMName%></td>
+<td style="text-align:right;"><%=Manhours%></td>
+<td style="text-align:center;"><%=CostCodeName%></td>

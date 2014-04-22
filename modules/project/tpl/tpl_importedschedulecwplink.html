@@ -1,0 +1,32 @@
+﻿<h2 class="title bg-primary">Add a form</h2>
+<form class="form-horizontal pop-form" role="form">					  
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label" >*Title</label>
+		<div class="col-sm-9">
+			<input type="text" class="form-control required" autofocus maxlength=100 id="title" placeholder="Title" value="<%=FileTitle%>">
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">*Document Type</label>
+		<div class="col-sm-9">
+			<select class="selDocumentType required form-control" ></select>
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">Description</label>
+		<div class="col-sm-9">
+		<textarea class="form-control" rows="2" id="desc" maxlength=250 placeholder="Description"><%=FileDescription%></textarea>
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">*Choose a file</label>
+		<div class="col-sm-9">
+			<input type="file" id="file" name="file" class="form-control required" accept="application/ozd,application/ozr">
+		</div>
+	  </div>
+</form> 
+<div class="pop-btn-control bg-primary">
+<button type="submit" class="btn btn-primary" id="btnSave">Save</button>			
+<button type="submit" class="btn btn-default" id="btnCancel">Cancel</button>
+</div>
+

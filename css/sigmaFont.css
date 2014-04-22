@@ -1,0 +1,392 @@
+@font-face {
+  font-family: 'sigma-icon';
+  src: url('../fonts/sigma-icon/sigma-icon.eot?ygvnrj');
+  src: url('../fonts/sigma-icon/sigma-icon.eot?#iefixygvnrj') format('embedded-opentype'), url('../fonts/sigma-icon/sigma-icon.woff?ygvnrj') format('woff'), url('../fonts/sigma-icon/sigma-icon.ttf?ygvnrj') format('truetype'), url('../fonts/sigma-icon/sigma-icon.svg?ygvnrj#sigma-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="s-icon-"],
+[class*=" s-icon-"] {
+  font-family: 'sigma-icon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.s-icon-companies-3:before {
+  content: "\e67b";
+}
+.s-icon-reports-records-2:before {
+  content: "\e677";
+}
+.s-icon-map-client-cost-code2:before {
+  content: "\e678";
+}
+.s-icon-map-client-cost-code:before {
+  content: "\e679";
+}
+.s-icon-companies-2:before {
+  content: "\e67a";
+}
+.s-icon-link:before {
+  content: "\e676";
+}
+.s-icon-log-out:before {
+  content: "\e675";
+}
+.s-icon-task-categories-type:before {
+  content: "\e674";
+}
+.s-icon-roles-permission:before {
+  content: "\e673";
+}
+.s-icon-progress-type:before {
+  content: "\e672";
+}
+.s-icon-overview2:before {
+  content: "\e671";
+}
+.s-icon-members:before {
+  content: "\e670";
+}
+.s-icon-material:before {
+  content: "\e66f";
+}
+.s-icon-home:before {
+  content: "\e66e";
+}
+.s-icon-equipment:before {
+  content: "\e66d";
+}
+.s-icon-drawing-type:before {
+  content: "\e66c";
+}
+.s-icon-document-library:before {
+  content: "\e66b";
+}
+.s-icon-creating-project:before {
+  content: "\e66a";
+}
+.s-icon-consumables:before {
+  content: "\e669";
+}
+.s-icon-companies:before {
+  content: "\e668";
+}
+.s-icon-hierarchy:before {
+  content: "\e667";
+}
+.s-icon-people:before {
+  content: "\e666";
+}
+.s-icon-report-records:before {
+  content: "\e665";
+}
+.s-icon-information:before {
+  content: "\e664";
+}
+.s-icon-costcode-estimates:before {
+  content: "\e663";
+}
+.s-icon-work-education-plan:before {
+  content: "\e600";
+}
+.s-icon-verify-material-onhand:before {
+  content: "\e601";
+}
+.s-icon-turnover-system:before {
+  content: "\e602";
+}
+.s-icon-turnover-binder:before {
+  content: "\e603";
+}
+.s-icon-tracking:before {
+  content: "\e604";
+}
+.s-icon-tools:before {
+  content: "\e605";
+}
+.s-icon-time-progress-group:before {
+  content: "\e606";
+}
+.s-icon-time-progress:before {
+  content: "\e607";
+}
+.s-icon-system-report:before {
+  content: "\e608";
+}
+.s-icon-system-progress-productivity:before {
+  content: "\e609";
+}
+.s-icon-system:before {
+  content: "\e60a";
+}
+.s-icon-standard-detail-manhours:before {
+  content: "\e60b";
+}
+.s-icon-siwp-viewer:before {
+  content: "\e60c";
+}
+.s-icon-sigma:before {
+  content: "\e60d";
+}
+.s-icon-setup-login-account:before {
+  content: "\e60e";
+}
+.s-icon-setup-costcode:before {
+  content: "\e60f";
+}
+.s-icon-setup:before {
+  content: "\e610";
+}
+.s-icon-schedule-progress:before {
+  content: "\e611";
+}
+.s-icon-scaffold-request:before {
+  content: "\e612";
+}
+.s-icon-rules-credit:before {
+  content: "\e613";
+}
+.s-icon-rfi-status:before {
+  content: "\e614";
+}
+.s-icon-reporting:before {
+  content: "\e615";
+}
+.s-icon-raceway-qaqc:before {
+  content: "\e616";
+}
+.s-icon-raceway-manhours:before {
+  content: "\e617";
+}
+.s-icon-qaqc-form:before {
+  content: "\e618";
+}
+.s-icon-qaqc-binder:before {
+  content: "\e619";
+}
+.s-icon-project-report:before {
+  content: "\e61a";
+}
+.s-icon-project-planned:before {
+  content: "\e61b";
+}
+.s-icon-project-costcode:before {
+  content: "\e61c";
+}
+.s-icon-project:before {
+  content: "\e61d";
+}
+.s-icon-planning:before {
+  content: "\e61e";
+}
+.s-icon-overview:before {
+  content: "\e61f";
+}
+.s-icon-mto-summary:before {
+  content: "\e620";
+}
+.s-icon-mto:before {
+  content: "\e621";
+}
+.s-icon-manpower-uploading:before {
+  content: "\e622";
+}
+.s-icon-manpower-loading:before {
+  content: "\e623";
+}
+.s-icon-manage-timesheet:before {
+  content: "\e624";
+}
+.s-icon-manage-siwp:before {
+  content: "\e625";
+}
+.s-icon-manage-schedule:before {
+  content: "\e626";
+}
+.s-icon-manage-personnel:before {
+  content: "\e627";
+}
+.s-icon-manage-onsite:before {
+  content: "\e628";
+}
+.s-icon-manage-iwp:before {
+  content: "\e629";
+}
+.s-icon-manage-component:before {
+  content: "\e62a";
+}
+.s-icon-maintain-qaqc:before {
+  content: "\e62b";
+}
+.s-icon-maintain-iwp:before {
+  content: "\e62c";
+}
+.s-icon-maintain-indirect-timesheet:before {
+  content: "\e62d";
+}
+.s-icon-location-setup:before {
+  content: "\e62e";
+}
+.s-icon-load-schedule:before {
+  content: "\e62f";
+}
+.s-icon-load-iwp:before {
+  content: "\e630";
+}
+.s-icon-load-drawings:before {
+  content: "\e631";
+}
+.s-icon-load-data:before {
+  content: "\e632";
+}
+.s-icon-load-component-schedule:before {
+  content: "\e633";
+}
+.s-icon-lighting-manhours:before {
+  content: "\e634";
+}
+.s-icon-library-form:before {
+  content: "\e635";
+}
+.s-icon-iwp-workflow:before {
+  content: "\e636";
+}
+.s-icon-iwp-viewer:before {
+  content: "\e637";
+}
+.s-icon-iwp-status:before {
+  content: "\e638";
+}
+.s-icon-iwp-signoff:before {
+  content: "\e639";
+}
+.s-icon-iwp-report:before {
+  content: "\e63a";
+}
+.s-icon-iwp-field-equipment:before {
+  content: "\e63b";
+}
+.s-icon-iwp-equipment:before {
+  content: "\e63c";
+}
+.s-icon-itp-qc-document:before {
+  content: "\e63d";
+}
+.s-icon-import-schedule:before {
+  content: "\e63e";
+}
+.s-icon-import-mto:before {
+  content: "\e63f";
+}
+.s-icon-grounding-manhours:before {
+  content: "\e640";
+}
+.s-icon-global-setting:before {
+  content: "\e641";
+}
+.s-icon-field-equipment-manhours:before {
+  content: "\e642";
+}
+.s-icon-ewo-report:before {
+  content: "\e643";
+}
+.s-icon-estimated-manhours:before {
+  content: "\e644";
+}
+.s-icon-equipment-manhours:before {
+  content: "\e645";
+}
+.s-icon-drawing-viewer:before {
+  content: "\e646";
+}
+.s-icon-drawing-type-setup:before {
+  content: "\e647";
+}
+.s-icon-drawings:before {
+  content: "\e648";
+}
+.s-icon-document-control-94:before {
+  content: "\e649";
+}
+.s-icon-document-control-75:before {
+  content: "\e64a";
+}
+.s-icon-d-model:before {
+  content: "\e64b";
+}
+.s-icon-data:before {
+  content: "\e64c";
+}
+.s-icon-cwp:before {
+  content: "\e64d";
+}
+.s-icon-crew-report:before {
+  content: "\e64e";
+}
+.s-icon-crew-progress:before {
+  content: "\e64f";
+}
+.s-icon-crew-attendance:before {
+  content: "\e650";
+}
+.s-icon-costcode-structure:before {
+  content: "\e651";
+}
+.s-icon-costcode-setup:before {
+  content: "\e652";
+}
+.s-icon-costcode-progress:before {
+  content: "\e653";
+}
+.s-icon-costcode-map-client:before {
+  content: "\e654";
+}
+.s-icon-control-panel:before {
+  content: "\e655";
+}
+.s-icon-consumable-material:before {
+  content: "\e656";
+}
+.s-icon-client-setup:before {
+  content: "\e657";
+}
+.s-icon-calendar:before {
+  content: "\e658";
+}
+.s-icon-cable-reel:before {
+  content: "\e659";
+}
+.s-icon-cable-qaqc:before {
+  content: "\e65a";
+}
+.s-icon-cable-manhours:before {
+  content: "\e65b";
+}
+.s-icon-build-siwp:before {
+  content: "\e65c";
+}
+.s-icon-build-schedule:before {
+  content: "\e65d";
+}
+.s-icon-build-iwp:before {
+  content: "\e65e";
+}
+.s-icon-assign-system:before {
+  content: "\e65f";
+}
+.s-icon-assign-costcode:before {
+  content: "\e660";
+}
+.s-icon-assign-cable-reel:before {
+  content: "\e661";
+}
+.s-icon-admin:before {
+  content: "\e662";
+}

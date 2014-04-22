@@ -1,0 +1,27 @@
+<td><input type="hidden" name="fname" value=<%=Image%> ><input type="hidden" name="fskey" value=<%=FileStoreId%> >
+	<%if(ComponentCount > 0){%>
+		<input type="checkbox" name="key" value=<%=DrawingId%> disabled >
+	<%}else{%>
+		<input type="checkbox" name="key" value=<%=DrawingId%> >
+	<%}%>
+</td>
+<td><%=CwpName%></td>
+<td><%=DrawingNum%><%if(ComponentCount > 0) {%>&nbsp;<span class="label label-success glyphicon glyphicon-wrench"> <%=ComponentCount%></span><%}%></td>
+<td align="center"><%=Revision%></td>
+<%if(Path != ""){%>
+<td><a href="javascript:Element.Tools.LinkClick('<%=FileName%>', 'showpdf', '<%=DrawingNum%>', '<%=Path%>');"><%=FileName%></a></td>
+<%}else{%>
+<td><%=FileName%></td>
+<%}%>
+<td><%=Title%></td>
+<td><%=Type%></td>
+<td><%=Description%></td>
+<td><%=ReferenceDrawing%></td>
+<td><%=DetailedDrawing%></td>
+<td>
+	<%if(Image == "Upload"){%>
+	<a href="javascript:Element.Tools.LinkClick('', 'showimage', '<%=DrawingId%>');"><%=Image%></a>
+	<%}else{%>
+	<a href="javascript:Element.Tools.LinkClick('<%=FileName%>', 'showimage', '<%=DrawingNum%>', '<%=Path%>');"><%=Image%></a>
+	<%}%>
+</td>

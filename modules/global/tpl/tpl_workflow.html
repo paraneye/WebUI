@@ -1,0 +1,48 @@
+<div>
+	<form class="form-horizontal" role="form">
+		<div class="form-group col-sm-4">
+			<label for="workflow" class="col-sm-6 control-label">Workflow Name</label>
+			<div class="col-sm-6">
+				<select id="slwf" class="form-control">
+				</select>
+			</div>
+		  </div>
+	</form>
+	<div id="init" class="alert alert-info">Select <strong>Workflow</strong> you want to see. You are able to add titles for transactors of each workflow step.</div>
+	<div id="list">
+		<table class="table table-bordered text-center">
+			<thead>
+				<tr>
+					<th colspan="5" id="wkname" class="text-center"></th>
+				</tr>
+				<tr>
+					<th class="text-center">Step</th>
+					<th class="text-center">Initiate</th>
+					<th class="text-center">1st Approval</th>
+					<th class="text-center">2nd Approval</th>
+					<th class="text-center">Final Approval</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Transactor</td>
+					<td></td>
+					<td>
+						<ul class="list-group">
+						</ul>
+					</td>
+					<td>
+						<ul class="list-group">
+						</ul>
+					</td>
+					<td>
+						<ul class="list-group">
+						</ul>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<button type="submit" class="btn btn-primary" id="btnSave">Save</button>			
+	<button type="submit" class="btn btn-default" id="btnCancel">Cancel</button>
+</div>

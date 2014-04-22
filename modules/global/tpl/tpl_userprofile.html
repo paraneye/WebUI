@@ -1,0 +1,105 @@
+<h2 class="title bg-primary">Login Profile</h2>
+<form class="form-horizontal pop-form" role="form" >
+<div class="panel panel-default" id="divprofile">
+<div class="panel-heading">Login Profile</div>
+	<div class="panel-body">	
+		<div class="col-sm-12">					  
+		  <div class="form-group">
+			<label  class="col-sm-3 control-label" >Login ID</label>
+			<div class="col-sm-9 control-label" style="text-align: left" ><%=SigmaUserId%>				
+			</div>
+		  </div>
+		  <div class="form-group">
+			<label  class="col-sm-3 control-label">Employee ID</label>
+			<div class="col-sm-9 control-label" style="text-align: left"><%=EmployeeId%>				
+			</div>
+		  </div>
+		  <div class="form-group">
+			<label  class="col-sm-3 control-label">First Name</label>
+			<div class="col-sm-9 control-label" style="text-align: left"><%=FirstName%>
+			</div>
+		  </div>
+		  <div class="form-group">
+			<label  class="col-sm-3 control-label">Last Name</label>
+			<div class="col-sm-9 control-label" style="text-align: left"><%=LastName%>
+			</div>
+		  </div>
+		  <div class="form-group">
+			<label  class="col-sm-3 control-label">Phone Number</label>
+			<div class="col-sm-9 control-label" style="text-align: left"><%=PhoneNo%>
+			</div>
+		  </div>
+		  <div class="form-group">
+			<label  class="col-sm-3 control-label">Email Address</label>
+			<div class="col-sm-9 control-label" style="text-align: left"><%=Email%>
+			</div>
+		  </div>
+		  <div class="form-group">
+			<label  class="col-sm-3 control-label">Company</label>
+			<div class="col-sm-9 control-label" style="text-align: left"><%=CompanyName%>
+			</div>
+		  </div>
+		  <div class="form-group" id="divPhoto">
+		  <label  class="col-sm-3 control-label">Photo</label>			  
+		  <div class="col-sm-9" >	
+			<img src="/SigmaStorage/UploadedImage/<%=PhotoUrl%>" class="img-thumbnail" style=" width:70px; height:90px;" />
+			
+		  </div>
+		  </div>
+		</div>
+		<div class="col-sm-12">
+		  <div id="userprofile_sublist">
+			<table class="table" style="border:1px;">
+				<thead>
+					<th style="width:50%;text-align:center;" >Project</th>
+					<th style="width:50%;text-align:center;">Role</th>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		  </div>
+		  <div class="form-group">
+			<label  class="col-sm-3 control-label">Default Project</label>
+			<div class="col-sm-9">
+					<select class="form-control" id="seldefaultproject"></select>
+			</div>
+		  </div> 
+			  
+		</div>
+	
+	</div>
+</div>
+</div>
+<div class="panel panel-default" id="divpwdchange" style="display:none;">
+<div class="panel-heading">Password Change</div>
+	<div class="panel-body">	
+		  <div class="form-group">
+			<label  class="col-sm-3 control-label">Old password</label>
+			<div class="col-sm-9">
+					<input type="password" class="form-control "  id="txtOldPwd" value="<%=Password%>">
+			</div>
+		  </div>
+		  <div class="form-group">
+			<label  class="col-sm-3 control-label">New password</label>
+			<div class="col-sm-9">
+			<input type="password" class="form-control " id="txtNewPwd">
+			</div>
+		  </div>
+		  <div class="form-group">
+			<label  class="col-sm-3 control-label">Confirm new password</label>
+			<div class="col-sm-9">
+			<input type="password" class="form-control" id="txtConfirmNewPwd">
+			</div>
+		  </div>	
+	</div>
+</div>
+</div>
+</form>
+<div class="pop-btn-control bg-primary">
+		<button type="submit" class="btn btn-info pull-left" id="btnPwdChange">Password Change Show</button>
+		<button type="submit" class="btn btn-primary" id="btnSave">Save</button>			
+		<button type="submit" class="btn btn-default" id="btnCancel">Cancel</button>
+</div>
+ 
+
+

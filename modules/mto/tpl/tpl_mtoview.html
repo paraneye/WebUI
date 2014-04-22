@@ -1,0 +1,115 @@
+	<div class="row">
+		<div class="col-sm-12" id="top_controls">
+			<div class="panel panel-default">
+				<div class="panel-heading">Drawing</div>
+				<div class="panel-body">
+				<form class="form-inline" role="form">
+				<div class="form-group">
+					<div class=""><strong>CWP</strong> <select class="form-control" id="slcwp"><option value="">Select</option></select>
+					</div>
+				  </div>
+				<div class="form-group">
+						<div class=""><strong>Drawing Number</strong> <select class="form-control" id="sldrawing"></select> </div>
+				  </div>
+			  </form>
+			  <div style="text-align:center;padding:10px;">
+				<div id="focal"  style="display:none;">
+				  <div class="parent">
+					<div class="panzoom" style="text-align:center;">
+					  <img id="mainimg" style="height:443px;border:1px solid #285e8e;">
+					</div>
+				  </div>
+				</div>
+			  </div>
+		  </div>
+		  </div>
+		</div>
+		<div class="col-sm-5 leftlist" style="display:none;">
+			<div class="panel panel-default">
+				<div class="panel-heading">Material Library</div>
+					<table style="width:100%;" id="msearchcontrol">
+						<tr style="vertial-align:">
+							<td style="padding:5px 10px 0 10px;">Task <div class="" id="cboTask"></div></td>
+							<td style="padding:5px 10px 0 10px;">Task Type <div class="" id="cboTaskType"></div></td>
+						</tr>
+						<tr>
+							<td colspan="3" style="padding:5px 10px 0 10px;">
+								<div class="input-group" style="width:100%">
+									<input type="text" class="form-control" placeholder="Description" id="txtSearchDescription">
+									<span class="input-group-btn">Search
+										<button class="btn btn-default" type="button" id="btnSearch">Search</button>
+									</span>
+								</div>
+							</td>
+						</tr>
+					</table>
+
+				<div class="panel-body materiallist">
+				</div>
+			</div>
+
+
+
+			<div class="rightlist" style="display:none;">
+				<div class="panel panel-default">
+					<div class="panel-heading">MTO</div>
+					<div class="panel-body" id="mtocreate">
+						<form class="form-horizontal" role="form">
+							<div class="form-group">
+								<label for="inputEmail3" class="col-sm-4 control-label">*Quantity</label>
+								<div class="col-sm-6">
+									<div class="input-group">
+								  <input type="text" class="form-control text-right" placeholder="" value="" id="txtQuantity">
+								  <span id="uomCode" class="input-group-addon">.00</span>
+									</div>
+								</div>
+							  </div>
+							<div class="form-group">
+								<label for="inputEmail3" class="col-sm-4 control-label">*Description</label>
+								<div class="col-sm-8">
+									<strong><p class="form-control-static" id="lblDescription"></p></strong>
+								</div>
+							  </div>
+							<div class="form-group">
+								<label for="inputEmail3" class="col-sm-4 control-label">Man Hour</label>
+								<div class="col-sm-3">
+									<strong><p id="txtManHour" class="text-right form-control-static">0</p></strong>
+								</div>
+							  </div>
+							<div class="form-group forcivil">
+								<label for="inputEmail3" class="col-sm-4 control-label">*Structure Number</label>
+								<div class="col-sm-6">
+									<input type="text" class="form-control" placeholder="" value="" id="txtFoundationNum">
+								</div>
+							  </div>
+							<div class="form-group">
+								<label for="inputEmail3" class="col-sm-4 control-label">Engineering Tag</label>
+								<div class="col-sm-6">
+									<input type="text" class="form-control" placeholder="" value="" id="txtEngTag">
+								</div>
+							  </div>
+						</form>
+					</div>
+					  <div class="panel-footer">
+							 <button type="submit" class="btn btn-success" id="btnAdd">Add User Defined Field</button>		
+							 <button type="button" class="pull-right btn btn-default" id="btnMTOCancel">Cancel</button>		
+							 <button type="submit" style="margin-right:5px;" class="pull-right btn btn-primary" id="btnSave">Save</button>		
+					  </div>
+						
+				</div>
+			</div>
+
+
+
+		</div>
+	</div>
+
+	<div class="panel panel-default mtlist" style="display:none;">		
+		<div class="panel-body">
+			<div class="row" style="padding-bottom:10px;">
+				<div class="col-sm-6" id="mto_buttons"></div>
+				<div class="col-sm-6" id="mto_controls" style="text-align:right;"></div>
+			</div>
+			<div id="mtolist"></div>
+		</div>
+	</div>

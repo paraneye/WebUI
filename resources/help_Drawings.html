@@ -1,0 +1,112 @@
+<div class="title">
+			<span class="help-pop-close">
+		<a href=""><i class="fa fa-times-circle"></i></a>
+	</span>
+		<h2><i class="s-icon-drawings"></i>Drawings</h2>
+		<!-- <div id="mydiv" style="font-size: 1em">some text here</div> -->
+		<span class="text-size-button">
+			<a href="#" class="fontSizePlus"><i class="fa fa-plus"></i></a> 
+			<a href="#" class="fontSizeMinus"><i class="fa fa-minus"></i></a>
+		</span>
+	</div>
+	<!-- //title -->
+	<div id="mydiv" class="comment">
+		<div  id="content_1" class="content">
+			<div class="h-title">
+				<h4>Drawings List<i class="fa fa-caret-down"></i></h4>
+				<p>All drawings available for the project are listed. Each drawing is associated with a CWP.This screen has three portions of functions:</p>
+			</div>
+			<ul>
+				<li class="bool">Adding drawing information by <span>Add New</span> or <span>Import File</span></li>
+				<li class="bool">Adding drawing image file by <span>Upload Drawing</span></li>
+				<li class="bool">Binding drawing image file to its drawing information by <span>Bind Drawings</span></li>
+				<li>
+					<div class="note">
+						<p>
+							Please be noted that drawing information and drawing image are added separately, and later bound each other.
+						</p>
+					</div>
+				</li>				
+			</ul><!-- //h-title -->
+			<hr>
+			<div class="h-title">
+				<h4>Adding New Drawing<i class="fa fa-caret-down"></i></h4>
+				<p>Selecting Add New displays pop-up window for adding a new drawing. Fields denoted with  &#39;*&#39; are required fields.</p>
+			</div>
+			<ul>
+				<li class="bool"><span>CWP :</span> CWP number that the drawing is associated with</li>
+				<li class="bool"><span>Drawing Number :</span> drawing number</li>
+				<li class="bool"><span>Revision :</span> revision number of the drawing</li>
+				<li class="bool"><span>File Name :</span> the name of drawing file. PDF format</li>
+				<li class="bool"><span>Title :</span> title of the drawing</li>
+				<li class="bool"><span>Type :</span> drawing type </li>
+				<li class="bool"><span>Description :</span> description of the drawing</li>
+				<li class="bool"><span>Reference Drawings :</span> drawing numbers of the drawings that are used for reference</li>
+				<li class="bool"><span>Detail Drawings :</span> drawing numbers of the drawings that have the detail view of certain area of the drawing to add</li>
+				<li class="bool"><span>Image :</span> image file of the drawing. Choose an image file from local computer. The image filename must be the same with <span>File Name</span> but not with its format</li>
+			</ul><!-- //h-title -->
+			<hr>
+			<div class="h-title">
+				<h4>Editing Drawing<i class="fa fa-caret-down"></i></h4>
+				<p>Selecting a drawing number from the drawings list pops up Edit window. All fields are editable.</p>
+			</div><!-- //h-title -->
+			<hr>
+			<div class="h-title">
+				<h4>Deleting Drawing<i class="fa fa-caret-down"></i></h4>
+				<p>Put a check to the drawing you want to delete and select <span>Delete</span> on the drawings list screen.</p>
+			</div><!-- //h-title -->
+			<hr>
+			<div class="h-title">
+				<h4>Import File<i class="fa fa-caret-down"></i></h4>
+				<p>You can add bulk drawings by importing excel file. You can download a template file from <span>Import File</span> pop-up window. In the template file, column titles denoted with ¡®*¡¯ are required fields. Notes in Readme sheet will help when you fill the template out.</p>
+			</div>
+			<ul>
+				<li class="bool">Clicking <span>Browse</span> button opens pop-up windows asking for choosing a excel file from local computer.  </li>
+				<li class="bool">To see what information is needed, download a excel template file. Fields denoted with ¡®*¡¯ in it are required fields.  </li>
+				<li class="bool">Selecting <span>Save</span> button imports drawings information from the excel file and then shows the result.  </li>
+				<li>
+					<div class="note">
+						<p>
+							Drawing information import file has the file names of drawing images but importing it does not add actual image files of drawings. You must separately upload image files of drawings by <span>Upload Drawing.</span>
+						</p>
+					</div>					
+				</li>
+			</ul><!-- //h-title -->	
+			<hr>
+			<div class="h-title">
+				<h4>Import History<i class="fa fa-caret-down"></i></h4>
+				<p>After importing is done, import results and logs are available. You can see which item failed for which reason. Downloading the list of failures as an excel file can help make corrections on those failures and then import it again. </p>
+			</div>
+			<ul>
+				<li class="bool">Clicking <span>Download</span> shows import failures and fail reasons. You can download failures as a form of excel file.</li>
+				<li class="bool">To delete import logs, put a check to import logs you want to delete, and select <span>Delete</span> button.</li>
+			</ul><!-- //h-title -->			
+			<hr>
+			<div class="h-title">
+				<h4>Upload Drawing<i class="fa fa-caret-down"></i></h4>
+				<p>You can upload image files of drawings as many as you want simply by dragging and dropping. Files must be PDF format and their names must be the same with the ones indicated in the drawing information so that the images of drawings are successfully bound to their drawing information </p>
+			</div>
+			<ul>
+				<li class="bool"><span>CWP :</span> CWP number that are associated with the drawings to upload</li>
+			</ul><!-- //h-title -->			
+			<hr>
+			<div class="h-title">
+				<h4>Binding Drawings<i class="fa fa-caret-down"></i></h4>
+				<p>After importing drawings information and uploading corresponding drawings image files are completed, you need to bind the drawing image files to the corresponding drawing information.
+Drawing image files that failed to be bound are called <span>Orphan Drawings.</span> Binding failures occurs when drawing image filename does not match the filename in any of drawing information. Drawing information without its bound drawing image file is <span>Unbound Drawing Info.</span>
+</p>
+			</div><!-- //h-title -->
+			<hr>
+			<div class="h-title">
+				<h4>List View Option<i class="fa fa-caret-down"></i></h4>
+				<p>There are four types to view drawings list </p>
+			</div>
+			<ul>
+				<li class="bool"><span>ALL :</span> all drawings are listed</li>
+				<li class="bool"><span>Normal :</span> drawings with bound image files are listed</li>
+				<li class="bool"><span>Orphan Drawings :</span> drawings that have only image files but not their drawing information are listed</li>
+				<li class="bool"><span>Unbound Drawing Info :</span> drawings that have only drawing information but not their image files are listed</li>
+			</ul><!-- //h-title -->				
+				
+		</div><!--// content -->
+	</div>

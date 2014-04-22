@@ -1,0 +1,32 @@
+<div class="media">
+  <div class="pull-left" id="logobox">
+    <img src="" id="imgLogo" style="width:0px;">
+  </div>
+  <div class="media-body">
+    <div class="jumbotron" style="padding-top:30px;padding-bottom:30px;padding-left:30px;">
+		  <h2>Welcome to the Sigma Instance</h2>
+		  <p>Easy way to help your team track and deliver projects</p>
+		</div>
+  </div>
+</div>
+<div class="row">
+	<div class="col-sm-6">
+		<div class="panel panel-primary" id="messagelistpart">
+			<div class="panel-heading">Messages</div>
+			<div class="panel-body"></div>
+			<ul class="list-group" id="messagelist">
+			</ul>
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="panel panel-primary" id="projectlistpart">
+			<div class="panel-heading">Projects</div>
+			<div class="panel-body"></div>
+			<ul class="list-group" id="projectlist">
+			</ul>
+			<div class="panel-footer">
+				<button class="btn btn-primary" id="btnnewproject" style="display:none" onClick='javascript:Element.Tools.GoLink("New Project","/ui/modules/project/#projectcreate");'>+ Add New Project</button>
+			</div>
+		</div>
+	</div>
+</div>

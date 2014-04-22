@@ -1,0 +1,63 @@
+<h2 class="title bg-primary">Add New Drawing</h2>
+<form class="form-horizontal pop-form" role="form">	
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label" >*CWP</label>
+		<div class="col-sm-9">
+			<select class="form-control required" autofocus id="cboCwp">
+			</select>
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">*Drawing Number</label>
+		<div class="col-sm-9">
+			<input type="text" class="form-control required" placeholder="" value="" id="txtDrawingNumber">
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">*Revision</label>
+		<div class="col-sm-9">
+			<input type="text" class="form-control required" placeholder="" value="" id="txtRevision">
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">*Title</label>
+		<div class="col-sm-9">
+			<input type="text" class="form-control required" placeholder="" value="" id="txtTitle">
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">*Type</label>
+		<div class="col-sm-9">
+			<select id="cboType" class="form-control required"></select>
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">*Description</label>
+		<div class="col-sm-9">
+			<input type="text" class="form-control required" placeholder="" value="" id="txtDescription">
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">Reference Drawings</label>
+		<div class="col-sm-9">
+			<input type="text" class="form-control" placeholder="" value="" id="txtRefDrawings">
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">Detail Drawings</label>
+		<div class="col-sm-9">
+			<input type="text" class="form-control" placeholder="" value="" id="txtDetailDrawings">
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">Image</label>
+		<div class="col-sm-9">
+			<input type="file" id="file" name="file" class="form-control" style="display:none;">
+			<div style="margin-top:8px;display:none;" id="imagelink"><a id="savedimage"></a></div>
+		</div>
+	  </div>
+</form>  
+<div class="pop-btn-control bg-primary">
+<button type="submit" class="btn btn-primary" id="btnSave">Save</button>			
+<button type="submit" class="btn btn-default" id="btnCancel">Cancel</button>
+</div>

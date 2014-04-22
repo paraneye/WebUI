@@ -1,0 +1,19 @@
+<h2 class="title bg-primary">Add New Drawing Type</h2>
+<form role="form" class="form-horizontal pop-form">
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label" >*Drawing Type</label>
+		<div class="col-sm-9">
+			<input type="text" class="form-control required d_code" autofocus maxlength=50 id="txtDrawingType" value="<%=CodeName%>">
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">Drawing Description</label>
+		<div class="col-sm-9">
+			<textarea rows="2" class="form-control" id="txtDrawingDesc" maxlength=100><%=Description%></textarea>
+		</div>
+	  </div>
+</form>  
+<div class="pop-btn-control bg-primary">
+ <button type="submit" class="btn btn-primary" id="btnSave">Save</button>			
+ <button type="submit" class="btn btn-default" id="btnCancel">Cancel</button>
+</div>

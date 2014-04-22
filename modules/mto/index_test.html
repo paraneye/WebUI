@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8" />
+  <title>Drawing viewer Technical preview</title>
+  
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+    <!-- <link rel="stylesheet" href="/css/boot/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/boot/bootstrap-theme.min.css"> -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<!--     <link href="/css/sigma_Main.css" rel="stylesheet" type="text/css">
+    <link href="/css/dev.css" rel="stylesheet" type="text/css"> -->
+    <link href="facebox.css" rel="stylesheet" type="text/css">
+
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="jquery.isotope.min.js"></script>
+  <script src="facebox.js"></script>
+  <!-- scripts at bottom of page -->
+</head>
+<body class="demos ">
+ 
+  <section id="content">
+    
+      <h1>Drawing viewer test</h1>
+
+
+  <section id="options" class="clearfix">
+    
+    
+      <h3>Filters</h3>
+
+      <ul id="filters" class="option-set clearfix" data-option-key="filter">
+        <li><a href="#filter" data-option-value="*" class="selected">show all</a></li>
+        <li><a href="#filter" data-option-value=".cwp1">cwp1</a></li>
+        <li><a href="#filter" data-option-value=".cwp2">cwp2</a></li>
+        <li><a href="#filter" data-option-value=".cwp3">cwp3</a></li>
+      </ul>
+
+      <h3>Thumbnail Size</h3>
+      <ul id="changesize" class="size-set clearfix" data-option-key="size">
+        <li><a href="#size" data-option-value='bigger'>bigger</a></li>
+        <li><a href="#size" data-option-value='smaller'>smaller</a></li>
+      </ul>
+
+  </section> <!-- #options -->
+
+  <div id="container" class="photos clearfix">
+    <div class="photo cwp1"><a href="popup.html?img=085354-1614-2B200" rel="facebox"><img src="../drawings/085354-1614-2B200.jpg" alt="085354-1614-2B200.jpg" /></a></div>
+    <div class="photo cwp1"><a href="popup.html?img=085354-4902-2B-207-03" rel="facebox"><img src="../drawings/085354-4902-2B-207-03.jpg" alt="085354-4902-2B-207-03.jpg" /></a></div>
+    <div class="photo cwp1"><a href="popup.html?img=085354-4902-2B-216-01" rel="facebox"><img src="../drawings/085354-4902-2B-215-01.jpg" alt="085354-4902-2B-215-01.jpg" /></a></div>
+    <div class="photo cwp1"><a href="popup.html?img=085354-4902-2B-216-01" rel="facebox"><img src="../drawings/085354-4902-2B-216-01.jpg" alt="085354-4902-2B-216-01.jpg" /></a></div>
+    <div class="photo cwp1"><a href="popup.html?img=085354-4902-2B-217-01" rel="facebox"><img src="../drawings/085354-4902-2B-217-01.jpg" alt="085354-4902-2B-217-01.jpg" /></a></div>
+    <div class="photo cwp1"><a href="popup.html?img=085354-4902-2B-218-01" rel="facebox"><img src="../drawings/085354-4902-2B-218-01.jpg" alt="085354-4902-2B-218-01.jpg" /></a></div>
+    <div class="photo cwp1"><a href="popup.html?img=085354-6906-2B211-01" rel="facebox"><img src="../drawings/085354-6906-2B211-01.jpg" alt="085354-6906-2B211-01.jpg" /></a></div>
+    <div class="photo cwp1"><a href="popup.html?img=085354-6906-2B218-01" rel="facebox"><img src="../drawings/085354-6906-2B218-01.jpg" alt="085354-6906-2B218-01.jpg" /></a></div>
+    <div class="photo cwp2"><a href="popup.html?img=085354-6909-2B200-01" rel="facebox"><img src="../drawings/085354-6909-2B200-01.jpg" alt="085354-6909-2B200-01.jpg" /></a></div>
+    <div class="photo cwp2"><a href="popup.html?img=085354-6917-2B000-02" rel="facebox"><img src="../drawings/085354-6917-2B000-02.jpg" alt="085354-6917-2B000-02.jpg" /></a></div>
+    <div class="photo cwp2"><a href="popup.html?img=085354-7051-2B201-01" rel="facebox"><img src="../drawings/085354-7051-2B201-01.jpg" alt="085354-7051-2B201-01.jpg" /></a></div>
+    <div class="photo cwp2"><a href="popup.html?img=085354-7051-2B210-01" rel="facebox"><img src="../drawings/085354-7051-2B210-01.jpg" alt="085354-7051-2B210-01.jpg" /></a></div>
+    <div class="photo cwp2"><a href="popup.html?img=085354-7051-2B211-01" rel="facebox"><img src="../drawings/085354-7051-2B211-01.jpg" alt="085354-7051-2B211-01.jpg" /></a></div>
+    <div class="photo cwp2"><a href="popup.html?img=085354-7051-2B217-01" rel="facebox"><img src="../drawings/085354-7051-2B217-01.jpg" alt="085354-7051-2B217-01.jpg" /></a></div>
+    <div class="photo cwp2"><a href="popup.html?img=085354-7051-2B218-01" rel="facebox"><img src="../drawings/085354-7051-2B218-01.jpg" alt="085354-7051-2B218-01.jpg" /></a></div>
+    <div class="photo cwp2"><a href="popup.html?img=085354-7051-2B223-01" rel="facebox"><img src="../drawings/085354-7051-2B223-01.jpg" alt="085354-7051-2B223-01.jpg" /></a></div>
+    <div class="photo cwp2"><a href="popup.html?img=085354-7051-2B228-01" rel="facebox"><img src="../drawings/085354-7051-2B228-01.jpg" alt="085354-7051-2B228-01.jpg" /></a></div>
+    <div class="photo cwp2"><a href="popup.html?img=085354-7051-2B229-01" rel="facebox"><img src="../drawings/085354-7051-2B229-01.jpg" alt="085354-7051-2B229-01.jpg" /></a></div>
+    <div class="photo cwp2"><a href="popup.html?img=085354-7053-2B200-01" rel="facebox"><img src="../drawings/085354-7053-2B200-01.jpg" alt="085354-7053-2B200-01.jpg" /></a></div>
+    <div class="photo cwp3"><a href="popup.html?img=085354-7059-2B212-01A" rel="facebox"><img src="../drawings/085354-7059-2B212-01A.jpg" alt="085354-7059-2B212-01A.jpg" /></a></div>
+    <div class="photo cwp3"><a href="popup.html?img=085354-7059-2B212-02A" rel="facebox"><img src="../drawings/085354-7059-2B212-02A.jpg" alt="085354-7059-2B212-02A.jpg" /></a></div>
+    <div class="photo cwp3"><a href="popup.html?img=085354-7059-2B221-01A" rel="facebox"><img src="../drawings/085354-7059-2B221-01A.jpg" alt="085354-7059-2B221-01A.jpg" /></a></div>
+    <div class="photo cwp3"><a href="popup.html?img=085354-7059-2B230-01A" rel="facebox"><img src="../drawings/085354-7059-2B230-01A.jpg" alt="085354-7059-2B230-01A.jpg" /></a></div>
+    <div class="photo cwp3"><a href="popup.html?img=25282-8C5-EH-023-B1001" rel="facebox"><img src="../drawings/25282-8C5-EH-023-B1001.jpg" alt="25282-8C5-EH-023-B1001.jpg" /></a></div>
+    <div class="photo cwp3"><a href="popup.html?img=25282-8C5-EH-023-B1004" rel="facebox"><img src="../drawings/25282-8C5-EH-023-B1004.jpg" alt="25282-8C5-EH-023-B1004.jpg" /></a></div>
+    <div class="photo cwp3"><a href="popup.html?img=25282-8C5-EH-023-B1006" rel="facebox"><img src="../drawings/25282-8C5-EH-023-B1006.jpg" alt="25282-8C5-EH-023-B1006.jpg" /></a></div>
+    <div class="photo cwp3"><a href="popup.html?img=25282-8C5-EH-023-B1007" rel="facebox"><img src="../drawings/25282-8C5-EH-023-B1007.jpg" alt="25282-8C5-EH-023-B1007.jpg" /></a></div>
+    <div class="photo cwp3"><a href="popup.html?img=25282-8C5-EH-023-B1008" rel="facebox"><img src="../drawings/25282-8C5-EH-023-B1008.jpg" alt="25282-8C5-EH-023-B1008.jpg" /></a></div>
+    <div class="photo cwp3"><a href="popup.html?img=25282-8C5-EH-023-B1009" rel="facebox"><img src="../drawings/25282-8C5-EH-023-B1009.jpg" alt="25282-8C5-EH-023-B1009.jpg" /></a></div>
+    <div class="photo cwp3"><a href="popup.html?img=25282-8C5-EH-023-B1010" rel="facebox"><img src="../drawings/25282-8C5-EH-023-B1010.jpg" alt="25282-8C5-EH-023-B1010.jpg" /></a></div>
+    <div class="photo cwp3"><a href="popup.html?img=25282-8C5-EH-023-B1011" rel="facebox"><img src="../drawings/25282-8C5-EH-023-B1011.jpg" alt="25282-8C5-EH-023-B1011.jpg" /></a></div>
+    <div class="photo cwp3"><a href="popup.html?img=25282-8C5-EH-023-B1012" rel="facebox"><img src="../drawings/25282-8C5-EH-023-B1012.jpg" alt="25282-8C5-EH-023-B1012.jpg" /></a></div>
+  </div> <!-- #container -->
+  
+
+
+<script>
+    $(function(){
+      
+      var $container = $('#container');
+
+    
+      $container.imagesLoaded( function(){
+        $container.isotope({
+          itemSelector : '.photo'
+        });
+      });
+    
+     
+      var $optionSets = $('#options .option-set'),
+          $optionLinks = $optionSets.find('a');
+
+      $optionLinks.click(function(){
+        var $this = $(this);
+        // don't proceed if already selected
+        if ( $this.hasClass('selected') ) {
+          return false;
+        }
+        var $optionSet = $this.parents('.option-set');
+        $optionSet.find('.selected').removeClass('selected');
+        $this.addClass('selected');
+  
+        // make option object dynamically, i.e. { filter: '.my-filter-class' }
+        var options = {},
+            key = $optionSet.attr('data-option-key'),
+            value = $this.attr('data-option-value');
+        // parse 'false' as false boolean
+        value = value === 'false' ? false : value;
+        options[ key ] = value;
+        if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {
+          // changes in layout modes need extra logic
+          changeLayoutMode( $this, options )
+        } else {
+          // otherwise, apply new options
+          $container.isotope( options );
+        }
+        return false;
+      });
+
+      var $sizeSets = $('#options .size-set'),
+          $sizeLinks = $sizeSets.find('a');
+
+      $sizeLinks.click(function(){
+        var $this = $(this);
+        var value = $this.attr('data-option-value');
+        
+        if (value == 'bigger') {
+          var newWidth = Math.floor(parseInt($('.photos .photo').css('width')) * 1.2) + 'px';
+        } else {
+          var newWidth = Math.floor(parseInt($('.photos .photo').css('width')) * 0.8) + 'px';
+        }
+
+        $('.photos .photo').css('width', newWidth);
+        $container.isotope();
+        return false;
+      })   
+
+    });
+  </script>
+
+  <script>
+    jQuery(document).ready(function($) {
+      $('a[rel*=facebox]').facebox()
+    });
+  </script>  
+
+ 
+  </section> <!-- #content -->
+  
+
+</body>
+</html>

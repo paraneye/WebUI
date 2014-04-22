@@ -1,0 +1,55 @@
+<h2 class="title bg-primary">Add New Consumable</h2>
+<form class="form-horizontal pop-form" role="form">
+	 <div class="col-sm-12">
+
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">*Vendor</label>
+		<div class="col-sm-9">
+				<input type="text" class="form-control required" placeholder="" value="<%=Vendor%>" id="txtVendor">
+		</div>
+	  </div>
+
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">*Description</label>
+		<div class="col-sm-9">
+				<input type="text" class="form-control required" placeholder="" value="<%=Description%>" id="txtDescription">
+		</div>
+	  </div>
+	  
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">*Part Number</label>
+		<div class="col-sm-9">
+				<input type="text" class="form-control required" placeholder="" value="<%=PartNumber%>" id="txtPartnumber">
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label  class="col-sm-3 control-label">*UOM</label>
+		<div class="col-sm-9">
+			<div class="divUOM" id=""></div>
+			<div style="clear:both;"/>
+		</div>
+	  </div>
+
+	 </div>
+	 <div class="col-sm-12">
+	 <div id="field_subbuttons"></div>
+	  <div id="field_sublist">
+		<table class="table">
+			<thead>
+				<tr>
+					<th style="text-align:center;"></th>
+					<th style="text-align:center;">Title</th>
+					<th style="text-align:center;">Value</th>					
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	  </div>
+	</div>
+</form>  
+<div class="pop-btn-control bg-primary">
+	<button type="submit" class="btn btn-primary" id="btnSave">Save</button>			
+	<button type="submit" class="btn btn-default" id="btnCancel">Cancel</button>
+</div>
+

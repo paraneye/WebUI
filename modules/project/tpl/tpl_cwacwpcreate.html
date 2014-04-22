@@ -1,0 +1,39 @@
+<h2 class="title bg-primary">Add New CWA/CWP</h2>
+<form class="form-horizontal pop-form" role="form">
+  <div class="form-group">
+	<label  class="col-sm-3 control-label">*CWA Number</label>
+    <div class="col-sm-6">
+		<input type="text" class="form-control required" id="txtCwaName" value="<%=Name%>">
+	</div>
+  </div>
+  <div class="form-group">
+	<label  class="col-sm-3 control-label">*Description</label>
+    <div class="col-sm-9">
+		<input type="text" class="form-control required" id="txtDescription" value="<%=Description%>">
+    </div>
+  </div>  
+  <div class="form-group" style="margin:0px;">    
+	  <div id="subbuttons" class="pull-right" style="margin-bottom:5px;"></div>
+	  <div id="sublist">
+		<table class="table table-condensed table-bordered">
+			<thead class="smallhead">
+				<tr>
+					<th class="t_check"></th>
+					<th>*CWP Number</th>
+					<th>*Discipline</th>
+					<th>*Description</th>					
+				</tr>
+			</thead>
+			<tbody>
+				<tr style="height:34px;" class='norec'>
+					<td colspan='4' style='text-align:center;'>No Record</td>
+				</tr>
+			</tbody>
+		</table>
+	  </div>
+  </div>
+</form>
+<div class="pop-btn-control bg-primary">
+  <button id="btnSave" class="btn btn-primary">Save</button>
+  <button id="btnCancel" class="btn btn-default">Cancel</button>
+</div>

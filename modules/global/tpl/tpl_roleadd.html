@@ -1,0 +1,31 @@
+<form class="form-horizontal" form="form">	  
+	<div class="panel panel-primary">
+		<div class="panel-heading">Basic Infomation</div>
+		<div class="panel-body">
+		  <div class="form-group">
+			<label  class="col-sm-3 control-label" >*Name</label>
+			<div class="col-sm-9">
+				<input type="text" class="form-control required" autofocus placeholder="Name" value="" id="txtRoleName">
+			</div>
+		  </div>
+		  <div class="form-group">
+			<label  class="col-sm-3 control-label">Description</label>
+			<div class="col-sm-9">
+				<textarea id="txtDescription" class="form-control" placeholder="Description"></textarea>
+			</div>
+		  </div>
+		  <div class="form-group" id="refrole">
+			<label  class="col-sm-3 control-label">Copy Permission from</label>
+			<div class="col-sm-9">
+				<select id="copyfrom" class="form-control">
+					<option value="">Select Permission</option>
+				</select>
+			</div>
+		  </div>
+		</div>
+	</div>
+	<div id="rolebox">
+	</div>
+	<button type="submit" class="btn btn-primary" id="btnSave">Save</button>			
+	<button type="submit" class="btn btn-default" id="btnCancel">Cancel</button>
+</form>  

@@ -1,0 +1,34 @@
+<h2 class="title bg-primary">Add Company</h2>
+<form class="form-horizontal pop-form" form="form"> 
+  <div class="form-group">
+	<label  class="col-sm-3 control-label" >*Company Name</label>
+	<div class="col-sm-9">
+		<input type="text" class="form-control required" autofocus maxlength=50 placeholder="Company Name" value="<%=Name%>" id="txtComName">
+	</div>
+  </div>
+  <div class="form-group">
+	<label  class="col-sm-3 control-label">*Type</label>
+	<div class="col-sm-9">
+		<select id="cboType" class="form-control required"></select>
+	</div>
+  </div>
+  <div class="form-group">
+	<label  class="col-sm-3 control-label">Address</label>
+	<div class="col-sm-9">
+		<input type="text" class="form-control" placeholder="Address" maxlength=300 value="<%=Address%>" id="txtComAddress">
+	</div>
+  </div>
+  
+  <div class="form-group">
+	<label for="lblLogo" class="col-sm-3 control-label">Logo</label>		
+	<div class="col-sm-9">
+		<input type="file" id="file" class="filePhoto form-control d_file" size="200" regexp=/\.(gif|jpg|jpeg|png|tif|bmp)$/i msg="Select File (ex:*.jpg,*.gif,*.tif,*.bmp,*.png)" accept="image/*" />
+		<span class="help-block">Choose a image file smaller then 200KByte</span>
+		<img style="margin-top:10px;width:200px;height:200px" id="imgLogo" class="img-thumbnail"/>	
+	</div>
+  </div>
+</form>  
+<div class="pop-btn-control bg-primary">
+	<button class="btn btn-primary" id="btnSave">Save</button>			
+	<button class="btn btn-default" id="btnCancel">Cancel</button>
+</div>
